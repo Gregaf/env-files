@@ -1,0 +1,14 @@
+[alias]
+	s = status
+	a = !git add . && git status
+	c = commit
+	cm = commit -m
+	ac = !git add . && git commit
+	acm = !git add . && git commit -m
+	l = log --graph --all
+	ll = log --stat --abbrev-commit
+	lg = log --color --graph --abrev-commit
+	d = diff
+[user]
+	email = gregfreitas1997@gmail.com
+	name = Greg Freitas
